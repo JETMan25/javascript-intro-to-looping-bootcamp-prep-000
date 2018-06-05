@@ -1,4 +1,7 @@
-  let countdown = 100;
-  while (countdown > 0){
-    console.log(--countdown)
+ function whileLoop(n) {
+   while (n > 0) {
+    console.log(--n);
+   }
+   
+    return 'done'
   }
